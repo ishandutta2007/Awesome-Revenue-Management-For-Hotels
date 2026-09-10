@@ -66,9 +66,9 @@ Below is an index of premier hotel revenue management systems, sorted in **desce
 
 Open-source hospitality software encompasses full-featured property management systems (PMS), central reservation systems (CRS), booking engines, dynamic pricing prototypes, and multi-agent AI revenue copilots.
 
-The table below catalogs active open-source hospitality and revenue management projects, sorted in **descending order by GitHub Stars ⭐**:
+The table below catalogs active open-source hospitality and revenue management projects, sorted in **descending order by GitHub_Stars ⭐**:
 
-| Project & Repository | GitHub Stars Badge | Primary Language | Description & Capabilities |
+| Project & Repository | GitHub_Stars Badge | Primary Language | Description & Capabilities |
 | :--- | :--- | :--- | :--- |
 | **[Qloapps/QloApps](https://github.com/Qloapps/QloApps)** | [![GitHub_Stars](https://img.shields.io/github/stars/Qloapps/QloApps?style=social&color=white)](https://github.com/Qloapps/QloApps/stargazers) | PHP | The leading open-source hotel management and reservation system featuring integrated PMS, online booking engine, multi-currency support, tax management, and room rate controls. |
 | **[Just-Moh-it/HotinGo](https://github.com/Just-Moh-it/HotinGo)** | [![GitHub_Stars](https://img.shields.io/github/stars/Just-Moh-it/HotinGo?style=social&color=white)](https://github.com/Just-Moh-it/HotinGo/stargazers) | Python | Modern MySQL and Python Tkinter-based hotel management system with automated room billing, guest ledger, and occupancy visualization. |
