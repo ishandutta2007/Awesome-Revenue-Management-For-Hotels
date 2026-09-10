@@ -1,0 +1,190 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 380" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradient with Animated Colors -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#080d1a">
+        <animate attributeName="stop-color" values="#080d1a;#0f172a;#0a1128;#080d1a" dur="10s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="50%" stop-color="#0f2042">
+        <animate attributeName="stop-color" values="#0f2042;#192a56;#1e1b4b;#0f2042" dur="10s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="100%" stop-color="#050811">
+        <animate attributeName="stop-color" values="#050811;#0c1021;#050811;#050811" dur="10s" repeatCount="indefinite" />
+      </stop>
+    </linearGradient>
+
+    <!-- Title Gradient -->
+    <linearGradient id="titleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="40%" stop-color="#818cf8" />
+      <stop offset="80%" stop-color="#34d399" />
+      <stop offset="100%" stop-color="#f43f5e" />
+    </linearGradient>
+
+    <!-- Chart Line Gradient -->
+    <linearGradient id="chartLineGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#06b6d4" />
+      <stop offset="50%" stop-color="#3b82f6" />
+      <stop offset="100%" stop-color="#10b981" />
+    </linearGradient>
+
+    <!-- Area Chart Gradient -->
+    <linearGradient id="chartAreaGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3b82f6" stop-opacity="0.35" />
+      <stop offset="100%" stop-color="#3b82f6" stop-opacity="0.0" />
+    </linearGradient>
+
+    <!-- Neon Glow Filter -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <filter id="softGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <!-- Blueprint Grid -->
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1e293b" stroke-width="0.8" opacity="0.4" />
+      <circle cx="40" cy="0" r="1.5" fill="#38bdf8" opacity="0.3" />
+    </pattern>
+  </defs>
+
+  <style>
+    @keyframes pulse {
+      0% { opacity: 0.7; transform: scale(1); }
+      50% { opacity: 1; transform: scale(1.02); }
+      100% { opacity: 0.7; transform: scale(1); }
+    }
+    @keyframes float {
+      0% { transform: translateY(0px); }
+      50% { transform: translateY(-7px); }
+      100% { transform: translateY(0px); }
+    }
+    @keyframes floatReverse {
+      0% { transform: translateY(0px); }
+      50% { transform: translateY(7px); }
+      100% { transform: translateY(0px); }
+    }
+    @keyframes dashMove {
+      to { stroke-dashoffset: -80; }
+    }
+    @keyframes barRise {
+      0% { transform: scaleY(0.7); }
+      50% { transform: scaleY(1.05); }
+      100% { transform: scaleY(0.7); }
+    }
+    .floating-card { animation: float 4s ease-in-out infinite; }
+    .floating-card-rev { animation: floatReverse 4.5s ease-in-out infinite; }
+    .neon-pulse { animation: pulse 3s infinite ease-in-out; }
+    .dash-animated { stroke-dasharray: 8 6; animation: dashMove 4s linear infinite; }
+    .dynamic-bar { transform-origin: bottom; animation: barRise 3.5s ease-in-out infinite; }
+  </style>
+
+  <!-- Background -->
+  <rect width="1200" height="380" fill="url(#bgGrad)" />
+  <rect width="1200" height="380" fill="url(#grid)" />
+
+  <!-- Ambient Glow Orbs -->
+  <circle cx="200" cy="80" r="130" fill="#38bdf8" opacity="0.08" filter="url(#glow)" />
+  <circle cx="950" cy="200" r="180" fill="#6366f1" opacity="0.1" filter="url(#glow)" />
+  <circle cx="600" cy="300" r="140" fill="#10b981" opacity="0.08" filter="url(#glow)" />
+
+  <!-- Right Side Visuals: Dynamic Revenue Chart & Yield Curves -->
+  <g transform="translate(680, 50)">
+    <!-- Chart Background Panel -->
+    <rect x="0" y="20" width="470" height="260" rx="16" fill="#0b1329" stroke="#1e293b" stroke-width="1.5" opacity="0.9" />
+    
+    <!-- Grid Lines -->
+    <line x1="20" y1="80" x2="450" y2="80" stroke="#1e293b" stroke-dasharray="4 4" />
+    <line x1="20" y1="140" x2="450" y2="140" stroke="#1e293b" stroke-dasharray="4 4" />
+    <line x1="20" y1="200" x2="450" y2="200" stroke="#1e293b" stroke-dasharray="4 4" />
+
+    <!-- Histogram / Bar Chart (Yield Buckets) -->
+    <g transform="translate(40, 240)">
+      <rect x="0" y="-70" width="22" height="70" rx="4" fill="#3b82f6" opacity="0.4" class="dynamic-bar" style="animation-delay: 0.1s" />
+      <rect x="35" y="-95" width="22" height="95" rx="4" fill="#38bdf8" opacity="0.45" class="dynamic-bar" style="animation-delay: 0.3s" />
+      <rect x="70" y="-120" width="22" height="120" rx="4" fill="#6366f1" opacity="0.5" class="dynamic-bar" style="animation-delay: 0.5s" />
+      <rect x="105" y="-150" width="22" height="150" rx="4" fill="#818cf8" opacity="0.55" class="dynamic-bar" style="animation-delay: 0.2s" />
+      <rect x="140" y="-135" width="22" height="135" rx="4" fill="#a855f7" opacity="0.5" class="dynamic-bar" style="animation-delay: 0.6s" />
+      <rect x="175" y="-175" width="22" height="175" rx="4" fill="#10b981" opacity="0.6" class="dynamic-bar" style="animation-delay: 0.4s" />
+      <rect x="210" y="-195" width="22" height="195" rx="4" fill="#34d399" opacity="0.7" class="dynamic-bar" style="animation-delay: 0.7s" />
+    </g>
+
+    <!-- Area Fill Under Dynamic Pricing Curve -->
+    <path d="M 40 220 Q 110 190 170 140 T 310 110 T 430 50 L 430 240 L 40 240 Z" fill="url(#chartAreaGrad)" />
+
+    <!-- Animated Smooth Yield / Dynamic Pricing Curve -->
+    <path d="M 40 220 Q 110 190 170 140 T 310 110 T 430 50" fill="none" stroke="url(#chartLineGrad)" stroke-width="4" stroke-linecap="round" filter="url(#softGlow)" />
+    <path d="M 40 220 Q 110 190 170 140 T 310 110 T 430 50" fill="none" stroke="#ffffff" stroke-width="1.5" stroke-dasharray="6 6" class="dash-animated" opacity="0.85" />
+
+    <!-- Peak Metric Dot with Pulse Ring -->
+    <circle cx="430" cy="50" r="10" fill="#34d399" opacity="0.25" class="neon-pulse" />
+    <circle cx="430" cy="50" r="6" fill="#10b981" />
+    <circle cx="430" cy="50" r="2.5" fill="#ffffff" />
+
+    <!-- Floating Live Pill: RevPAR Surging -->
+    <g class="floating-card" transform="translate(250, 30)">
+      <rect width="180" height="42" rx="21" fill="#047857" fill-opacity="0.9" stroke="#34d399" stroke-width="1.2" filter="url(#glow)" />
+      <circle cx="22" cy="21" r="5" fill="#a7f3d0" />
+      <text x="36" y="26" font-family="'Segoe UI', Roboto, sans-serif" font-weight="700" font-size="13" fill="#ffffff">RevPAR +24.8% ↗</text>
+    </g>
+
+    <!-- Floating Live Pill: Real-time Dynamic Rate -->
+    <g class="floating-card-rev" transform="translate(15, 175)">
+      <rect width="190" height="42" rx="21" fill="#1e1b4b" fill-opacity="0.9" stroke="#818cf8" stroke-width="1.2" filter="url(#softGlow)" />
+      <text x="18" y="26" font-family="'Segoe UI', Roboto, sans-serif" font-weight="600" font-size="13" fill="#c7d2fe">ADR: <tspan fill="#38bdf8" font-weight="700">$248.50</tspan> | Occ 92%</text>
+    </g>
+  </g>
+
+  <!-- Left Side: Main Typography & Badges -->
+  <g transform="translate(70, 75)">
+    <!-- Category Pill Tag -->
+    <g>
+      <rect width="320" height="30" rx="15" fill="#1e293b" stroke="#38bdf8" stroke-width="1" opacity="0.9" />
+      <circle cx="16" cy="15" r="4" fill="#38bdf8" />
+      <text x="28" y="20" font-family="'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="700" fill="#38bdf8" letter-spacing="1.2">HOTEL REVENUE MANAGEMENT (RMS)</text>
+    </g>
+
+    <!-- Main Title -->
+    <text x="0" y="85" font-family="'Segoe UI', -apple-system, Roboto, sans-serif" font-weight="900" font-size="44" fill="url(#titleGrad)" letter-spacing="-0.5">
+      Awesome Hotel
+    </text>
+    <text x="0" y="138" font-family="'Segoe UI', -apple-system, Roboto, sans-serif" font-weight="900" font-size="44" fill="#ffffff" letter-spacing="-0.5">
+      Revenue Management
+    </text>
+
+    <!-- Subtitle -->
+    <text x="0" y="180" font-family="'Segoe UI', Roboto, sans-serif" font-size="16" fill="#94a3b8" font-weight="400">
+      Curated ecosystem of enterprise RMS, open pricing models, and AI algorithms
+    </text>
+
+    <!-- Feature Tags Row -->
+    <g transform="translate(0, 210)">
+      <g transform="translate(0, 0)">
+        <rect width="128" height="28" rx="6" fill="#1e293b" stroke="#334155" stroke-width="1" />
+        <text x="12" y="18" font-family="'Segoe UI', sans-serif" font-size="12" font-weight="600" fill="#38bdf8">⚡ Dynamic Pricing</text>
+      </g>
+      <g transform="translate(136, 0)">
+        <rect width="138" height="28" rx="6" fill="#1e293b" stroke="#334155" stroke-width="1" />
+        <text x="12" y="18" font-family="'Segoe UI', sans-serif" font-size="12" font-weight="600" fill="#34d399">📈 Demand Forecast</text>
+      </g>
+      <g transform="translate(282, 0)">
+        <rect width="118" height="28" rx="6" fill="#1e293b" stroke="#334155" stroke-width="1" />
+        <text x="12" y="18" font-family="'Segoe UI', sans-serif" font-size="12" font-weight="600" fill="#a78bfa">🏨 Open Pricing</text>
+      </g>
+      <g transform="translate(408, 0)">
+        <rect width="128" height="28" rx="6" fill="#1e293b" stroke="#334155" stroke-width="1" />
+        <text x="12" y="18" font-family="'Segoe UI', sans-serif" font-size="12" font-weight="600" fill="#fb7185">🎯 Yield Optimizer</text>
+      </g>
+    </g>
+  </g>
+</svg>
