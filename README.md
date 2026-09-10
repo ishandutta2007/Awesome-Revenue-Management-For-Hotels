@@ -42,53 +42,21 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## SaaS/Hosted Platforms
 
-
-
-- **[IDeaS](https://ideas.com/)**  
-
-  Long-established enterprise hotel revenue management system (G3 and related solutions) widely used by large hotels and chains for advanced forecasting, pricing, and revenue optimization.
-
-
-
-- **[Duetto / GameChanger by Duetto](https://www.duetto.com/)**  
-
-  Cloud-native revenue management platform known for Open Pricing—independent real-time pricing by room type, channel, and segment—popular with mid-size to large hotels and groups.
-
-
-
-- **[Atomize](https://www.atomize.com/)**  
-
-  AI-driven RMS focused on fully autonomous, real-time price optimization and demand forecasting, well-suited to independent and mid-size hotels seeking high automation.
-
-
-
-- **[RoomPriceGenie](https://www.roompricegenie.com/)**  
-
-  User-friendly, highly automated revenue management system frequently ranked top for independent hotels and properties without a dedicated revenue manager.
-
-
-
-- **[BEONx, Pace Revenue, Lighthouse](https://www.beonx.com/)**  
-
-  Specialized RMS and pricing intelligence platforms serving various hotel segments with forecasting, competitive rate shopping, and optimization tools.
-
-
-
-- **[RateGain](https://rategain.com/)**  
-
-  Hospitality technology provider offering revenue management, rate intelligence, and distribution solutions for hotels and travel companies.
-
-
-
-- **[RMS Cloud](https://www.rmscloud.com/)**  
-
-  Property and revenue management oriented platform with tools for rate control, distribution, and hotel operations.
-
-
-
-- **[Other hotel RMS & pricing platforms](https://ideas.com/)**  
-
-  Additional commercial solutions covering group pricing, casino/hotel hybrid revenue, and multi-property optimization.
+| Platform | Description | Starting Tier Pricing 💵 | Free Tier / Free Trial Limits 🎁 |
+| :--- | :--- | :--- | :--- |
+| **[IDeaS](https://ideas.com/)** | Long-established enterprise hotel revenue management system (G3 RMS, Optix, IPS) used globally by hotel chains and independent properties for automated demand forecasting, continuous pricing, and RevPAR optimization. | Starts at **$1,200/month** (~$8–$15/room/month; baseline enterprise contract ~$14,400/year; entry IDeaS Pricing System / IPS starts at ~$600/month) | **No open free trial or free tier**; 30-day proof-of-concept pilot with historical hotel PMS data analysis and guided sandbox simulation available upon sales qualification |
+| **[Duetto](https://www.duetto.com/)** *(GameChanger)* | Cloud-native revenue strategy platform (GameChanger, ScoreBoard, BlockBuster) known for Open Pricing—pricing room types, segments, and channels independently in real time. | Starts at **$1,000/month** (~$7–$15/room/month; typical annual contracts start at ~$12,000/year based on room count and property size) | **No open free trial or free tier**; evaluation provided via interactive sandbox demonstrations and guided 30-day proof-of-value (PoV) pilots with live PMS data |
+| **[Atomize](https://www.atomize.com/)** | AI-driven RMS focused on autonomous real-time price optimization, dynamic yield recommendations, and continuous automated PMS rate updates. | Starts at **€299/month** (~$325/month, or ~$4–$6/room/month for boutique and mid-market hotels up to 50 rooms) | **No open free trial or permanent free tier**; 14-day assisted simulation sandbox with property historical data and revenue uplift modeling upon sales demo |
+| **[RoomPriceGenie](https://www.roompricegenie.com/)** | User-friendly, highly automated dynamic pricing solution purpose-built for independent hotels, boutique properties, and B&Bs without dedicated revenue managers. | Starts at **$119/month** (Core plan billed annually, or $139/month billed monthly, for up to 10–20 rooms; scales with room count) | **14-day free trial** with full feature access, 2-way PMS integration, automated price recommendations, and free onboarding (no credit card required) |
+| **[BEONx](https://www.beonx.com/)** | AI-driven hospitality revenue platform incorporating the Hotel Quality Index (HQI) to optimize pricing, segment elasticity, and total profitability (RevPAG). | Starts at **€688/month** (~$750/month for independent hotels; typical mid-market contracts range from €7,000–€15,000/year based on room inventory) | **No open free trial or free tier**; 14-day assisted simulation sandbox and parity audit using property historical data provided after demo consultation |
+| **[FLYR Hospitality](https://flyrhospitality.com/)** *(formerly Pace Revenue)* | Deep learning commercial intelligence and revenue platform providing hourly dynamic pricing, micro-forecasting, and automated inventory controls. | Starts at **€430/month** (~$470–$700/month, or €4.00–€13.00/room/month depending on property size and RMS tier) | **No open free trial or free tier**; 30-day proof-of-value evaluation and interactive sandbox environment populated with historical PMS booking feeds |
+| **[Lighthouse](https://www.mylighthouse.com/)** *(formerly OTA Insight)* | Commercial intelligence and automated dynamic pricing engine (Pricing Manager & Rate Insight) providing competitor comp-set tracking and rate distribution alerts. | Starts at **$100/month** (Pricing Manager starter plan from ~$100–$115/month; Rate Insight competitive intelligence starting at ~$89/month per property) | **14-day free trial** with full platform capabilities, real-time competitor rate shopping, comp-set benchmarks, and pricing recommendations (no credit card required) |
+| **[RateGain](https://rategain.com/)** *(Navigator / Rev-AI)* | Hospitality intelligence provider offering real-time competitive rate intelligence (Navigator), AI price optimization, and rate parity monitoring across OTAs. | Starts at **$300/month** (or entry rate intelligence credit packages from $300/year; comprehensive enterprise RMS packages from ~$3,600/year) | **No permanent free tier**; 14-day guided proof-of-concept trial and sample competitive rate audit report available upon enterprise qualification |
+| **[RMS Cloud](https://www.rmscloud.com/)** | Integrated PMS and revenue platform featuring dynamic rate yielding, demand-driven channel distribution, and multi-property rate management. | Starts at **$55/month** (entry tier for small properties; scales with room count at ~$1.50–$3.00/room/month plus onboarding fee) | **No open free trial or free tier**; evaluation offered through personalized 1-on-1 guided sandbox demonstration and workflow assessment |
+| **[Cloudbeds](https://www.cloudbeds.com/)** *(PIE)* | Cloud hospitality management system with integrated Pricing Intelligence Engine (PIE) for automated rate rules, comp-set monitoring, and dynamic yield management. | Starts at **$135/month** (Essentials package including PMS, channel manager, and core PIE dynamic pricing rules for properties up to 10 rooms) | **No open self-serve trial**; 14-day guided sandbox demo with simulated reservations and pricing automation rules available upon demo request |
+| **[PriceLabs](https://pricelabs.co/)** | Algorithmic dynamic pricing and revenue management platform used by independent hotels, boutique accommodations, and aparthotels for automated rate and min-stay setting. | Starts at **$19.99/month** (flat fee for 1 listing/room, scaling to $9.99–$14.99/room/month for multi-room portfolios, or optional 1% revenue share) | **30-day free trial** with full feature access, market demand dashboard, automated rate calculations, and PMS integrations (no credit card required) |
+| **[Wheelhouse](https://www.usewheelhouse.com/)** | Predictive pricing engine with customizable risk profiles (conservative, recommended, aggressive) and market demand tracking for hotels and lodging operators. | Starts at **$19.99/month** per listing/room (Pro Flat plan) or **1% of booking revenue** (Performance plan, min $2.99/month per unit) | **14-day free trial** with full access to dynamic pricing algorithms, competitor rate tracking, and automated PMS rate synchronization (no credit card required) |
+| **[RevControl](https://www.revcontrol.com/)** | European cloud hotel revenue management system featuring automated pickup tracking, competitor rate shopping, dynamic rate publishing, and multi-PMS integrations. | Starts at **€195/month** (~$210/month for properties up to 20 rooms; plus €2.00–€3.00/additional room/month) | **30-day free trial** with full feature access, automated rate recommendations, PMS connection, and complimentary onboarding support |
 
 
 
